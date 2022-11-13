@@ -23,8 +23,39 @@ body {
     background-color: rgb(5, 0, 80);
 }
 
+/* img asta trebuie aplicat DOAR la img-urile Donaldson si Gardner Denver */
 img {
     width: 30vw;
+}
+
+.big-ultrafilter-banner {
+    display: flex;
+    padding: 50px;
+    background-image: url(/background-image-cropped.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+
+.logo-text {
+    height: auto;
+    padding-top: 50px;
+}
+
+.logo-linii {
+    height: 70vh;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.big-ultrafilter-banner-column1 {
+    padding-right: 50px;
+}
+
+.big-ultrafilter-banner-column1 p {
+    font-size: 50px;
+    font-family: 'Xanh Mono', monospace;
+    padding-top: 150px;
 }
 
 .mainpages {
@@ -76,10 +107,10 @@ img {
     align-items: center;
 }
 
-.footer-right {
-    /* display: flex; */
+/* .footer-right {
+    display: flex;
     right: 50px;
-}
+}  */
 
 .footer p:hover {
     color: black;
