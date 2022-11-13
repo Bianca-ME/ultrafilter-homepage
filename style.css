@@ -1,0 +1,87 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navelem {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navelem:hover {
+    color: aliceblue;
+    background-color: rgb(5, 0, 80);
+}
+
+img {
+    width: 30vw;
+}
+
+.mainpages {
+    font-family: 'Xanh Mono', monospace;
+    text-align: center;
+    height: 70vh;
+    display: flex;
+}
+
+.page1,
+.page2 {
+    font-size: 50px;
+    width: 50vw;
+    color: rgb(0, 0, 0);
+}
+
+.page1 {
+    background-image: url(/Untitled_Artwork\ 1.png);
+    background-size: cover;
+    /* background-attachment:fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 {
+    background-image: url(/Untitled_Artwork\ 2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #pagetitle {
+    background-color: aliceblue;
+} */
+
+.footer {
+    background-color: rgb(5, 0, 80);
+    color: white;
+    /* position: relative; */
+    /* bottom: 0px; */
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Work Sans', sans-serif;
+    /* padding: 15px 50px 30px 50px; */
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-right {
+    /* display: flex; */
+    right: 50px;
+}
+
+.footer p:hover {
+    color: black;
+    background-color: aliceblue;
+}
