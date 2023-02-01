@@ -130,7 +130,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(50, 129, 189);
+    /* background-color: rgb(50, 129, 189); */
+    background-color: #0082ca;
 }
 
 .page2 {
