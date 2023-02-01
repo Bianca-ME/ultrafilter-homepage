@@ -40,6 +40,9 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Roboto Mono', monospace;
+    background-color: rgb(7, 22, 63);
+    color: white;
+    margin-top: 0;
 }
 
 .navelem {
@@ -47,61 +50,38 @@ body {
     padding-right: 50px;
 }
 
-.navelem:hover {
+/* .navelem:hover {
     color: aliceblue;
     background-color: rgb(5, 0, 80);
-}
+} */
 
 img {
     width: 30vw;
 }
 
+
 /* add t19 */
 
-.big-ultrafilter-banner {
-    background-image: url(/background-image-cropped.jpg);
-    background-size: cover;
-    height: 95vh;
-    padding: 2vw;
-
+.big-ultrafilter-banner {    
+    /* padding: 2vw; */
+    background-color: rgb(7, 22, 63);
+    padding-top: 2vh;
+    padding-bottom: 1vh;
 }
 
-.logo-text {
-    width: 40vw;
-    height: auto;
-    top: 100px;
-    display: flex;
-     /* not sure */
-     transition: transform 2s;
-     transition-delay: 3s;
-     transform: translate(25vw,5vh) scale(0.3); 
-} 
-
-.logo-linii {
-    width: 50vw;  
-    height: 60vh; 
-    display: flex;
-    margin-left: 45vw;
-    margin-top: -7vh;
-    /* not sure */
-    transition: transform 2s;
-    transition-delay: 3s;
-    transform: translate(-25vw,-30vh) scale(0.25,0.16); 
+.logo-white {
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .quote {
-    /* display: flex; */
     margin-top: -30vh;
     font-size: 4.5vw;
     font-family: 'Xanh Mono', monospace;
-    /* transition: transform 2s;
-    transition-delay: 3s;
-    transform: translate(-25vw,-30vh) scale(0.5); */
-
-    /* de pe net si nu inteleg cum functioneaza */
-    /* visibility: hidden;
-    opacity: 0;
-    transition: visibility 5s 10s, opacity 3s linear; */
 }
 
 /* end - t19 */
@@ -109,12 +89,46 @@ img {
 .mainpages {
     font-family: 'Xanh Mono', monospace;
     text-align: center;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     /* not sure */
-    transition: transform 2s;
+    /* transition: transform 2s;
     transition-delay: 3s;
-    transform: translate(0,-85vh);
+    transform: translate(0,-85vh); */
+}
+
+.mainpages-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainpages-description p {
+    
+    /* background-color: rgb(12, 59, 190); */
+    /* color: white; */
+    /* display: flex; */
+    /* position: fixed; */
+    margin-bottom: 0;
+    width: 50vw;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Xanh Mono', monospace;
+    font-size: 7vh;
+    margin: 0;
+}
+
+.page1description {
+    background-color: rgb(7, 22, 63);
+    color: white;
+    /* border-right: 1px solid white;
+    border-bottom: 1px solid white; */
+}
+
+.page2description {
+    background-color: rgb(7, 22, 63);
+    color: white;
+    /* border-bottom: 1px solid white; */
 }
 
 .page1,
@@ -135,8 +149,6 @@ img {
 }
 
 .page2 {
-    /* background-image: url(/Untitled_Artwork\ 2.png);
-    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -162,9 +174,9 @@ img {
     align-items: center;
     height: 500px;
 
-    transition: transform 2s;
+    /* transition: transform 2s;
     transition-delay: 3s;
-    transform: translate(0,-95vh);
+    transform: translate(0,-95vh); */
 }
 
 .footer-right {
