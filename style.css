@@ -6,6 +6,35 @@ body {
     margin: 0;
 }
 
+/*fade in animation of entire webpage at load*/
+body {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;     
+} 
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
 
 .navbar {
     display: flex;
@@ -27,11 +56,65 @@ img {
     width: 30vw;
 }
 
+/* add t19 */
+
+.big-ultrafilter-banner {
+    background-image: url(/background-image-cropped.jpg);
+    background-size: cover;
+    height: 95vh;
+    padding: 2vw;
+
+}
+
+.logo-text {
+    width: 40vw;
+    height: auto;
+    top: 100px;
+    display: flex;
+     /* not sure */
+     transition: transform 2s;
+     transition-delay: 3s;
+     transform: translate(25vw,5vh) scale(0.3); 
+} 
+
+.logo-linii {
+    width: 50vw;  
+    height: 60vh; 
+    display: flex;
+    margin-left: 45vw;
+    margin-top: -7vh;
+    /* not sure */
+    transition: transform 2s;
+    transition-delay: 3s;
+    transform: translate(-25vw,-30vh) scale(0.25,0.16); 
+}
+
+.quote {
+    /* display: flex; */
+    margin-top: -30vh;
+    font-size: 4.5vw;
+    font-family: 'Xanh Mono', monospace;
+    /* transition: transform 2s;
+    transition-delay: 3s;
+    transform: translate(-25vw,-30vh) scale(0.5); */
+
+    /* de pe net si nu inteleg cum functioneaza */
+    /* visibility: hidden;
+    opacity: 0;
+    transition: visibility 5s 10s, opacity 3s linear; */
+}
+
+/* end - t19 */
+
 .mainpages {
     font-family: 'Xanh Mono', monospace;
     text-align: center;
     height: 70vh;
     display: flex;
+    /* not sure */
+    transition: transform 2s;
+    transition-delay: 3s;
+    transform: translate(0,-85vh);
 }
 
 .page1,
@@ -42,20 +125,21 @@ img {
 }
 
 .page1 {
-    background-image: url(/Untitled_Artwork\ 1.png);
-    background-size: cover;
-    /* background-attachment:fixed; */
+    /* background-image: url(/Untitled_Artwork\ 1.png); */
+    /* background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(50, 129, 189);
 }
 
 .page2 {
-    background-image: url(/Untitled_Artwork\ 2.png);
-    background-size: cover;
+    /* background-image: url(/Untitled_Artwork\ 2.png);
+    background-size: cover; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    background-color: rgb(255, 255, 255);
 }
 
 /* #pagetitle {
@@ -63,17 +147,23 @@ img {
 } */
 
 .footer {
-    background-color: rgb(5, 0, 80);
+    font-size: 30px;
+    background-color: rgb(7, 22, 63);
     color: white;
     /* position: relative; */
     /* bottom: 0px; */
     /* font-family: 'Roboto Mono', monospace; */
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     /* padding: 15px 50px 30px 50px; */
     display: flex;
     width: 100vw;
     justify-content: space-around;
     align-items: center;
+    height: 500px;
+
+    transition: transform 2s;
+    transition-delay: 3s;
+    transform: translate(0,-95vh);
 }
 
 .footer-right {
